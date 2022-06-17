@@ -1,0 +1,5 @@
+# Variaveis de ambiente
+.env*
+
+# Node build artifacts
+node_modules

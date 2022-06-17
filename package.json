@@ -1,0 +1,23 @@
+{
+  "name": "meli-application",
+  "version": "1.0.0",
+  "description": "precificação, postagem de produtos, controle de armazenagem e etc.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "Rafael Nascimento Ramos",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^2.0.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "mercadolibre": "^0.0.13",
+    "multer": "^1.4.5-lts.1"
+  },
+  "engines":{
+    "node": "16.15.0"
+  }
+}
